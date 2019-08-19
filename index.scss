@@ -1,0 +1,45 @@
+$gray: #808080;
+$red: #B22222;
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: $red;
+  padding: 0 0 20px 0;
+  border-bottom: 3px solid $gray;
+  font-size: 40px;
+}
+
+#body {
+  width: 75%;
+  margin: auto;
+}
+
+p {
+  color: black;
+}
+
+button {
+  background-color: $red;
+  color: white;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+
+  &:hover {
+    background-color: $gray;
+  }
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.red-circle{
+  fill: $red;
+}
